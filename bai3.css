@@ -1,0 +1,47 @@
+body {
+    padding: 40px;
+    background: linear-gradient(#7ec8e3, #0a5c8a);
+    font-family: 'Times New Roman', serif;
+}
+
+.khung {
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #0b3d5c;
+    text-align: center;
+    font-weight: bold;
+}
+
+.doan1 {
+    background-color: #0b3d5c;
+    font-style: italic;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px
+}
+
+img {
+    float: right;
+    width: 40%;
+    margin: 0 0 10px 15px;
+    border-radius: 8px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+p::first-letter {
+    float: left;
+    font-size: 60px;
+    color: #0b3d5c;
+    margin-right: 8px;
+    font-weight: bold;
+}
