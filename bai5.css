@@ -3,10 +3,13 @@
     margin: 30px auto;
     display: flex;
     gap: 0px;
-
 }
 
-.cottrai img {
+.cotphai {
+    flex: 1;
+}
+
+.cottrai.img {
     width: 200px;
     flex-shrink: 0;
     border-radius: 8px;
@@ -14,15 +17,11 @@
 
 ul {
     margin: 0 0 10px 0;
-    padding-left: 20px
+    padding-left: 20px;
 }
 
 li {
     line-height: 1.8;
-}
-
-.cotphai {
-    flex: 1;
 }
 
 h1 {
@@ -36,7 +35,6 @@ h2 {
     display: inline-block;
     font-size: 16px;
     padding: 3px 8px;
-
 }
 
 .muc1 {

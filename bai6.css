@@ -1,0 +1,50 @@
+body {
+    background: #e0d6c2;
+    font-family: 'Times New Roman', serif
+}
+
+h1 {
+    color: #e65100;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.khung img {
+    float: left;
+    width: 200px;
+}
+
+table {
+    float: right;
+    width: 75%;
+    border-bottom: collapse;
+    ;
+    background: #ffffff;
+}
+
+th {
+    background: #e65100;
+    color: #ffffff;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #e0d6c2;
+}
+
+th:first-child,
+td:first-child {
+    width: 60px;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background: #fdf8ef;
+}

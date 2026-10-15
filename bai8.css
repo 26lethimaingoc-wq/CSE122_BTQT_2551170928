@@ -1,0 +1,75 @@
+body {
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 950px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.tieude {
+    color: #1668c1;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: 3px solid #1668c1;
+}
+
+.menu {
+    float: left;
+    width: 170px;
+    padding: 15px;
+}
+
+.nhan {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.menu a {
+    display: block;
+    color: #1668c1;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.noidung {
+    float: right;
+    width: 700px;
+    padding: 20px;
+}
+
+.chuyenmuc {
+    background: #1668c1;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.bai {
+    overflow: hidden;
+    padding: 10px 0;
+    border-bottom: 1px dashed #ffffff;
+}
+
+.bai img {
+    float: right;
+    width: 130px;
+    height: 130px;
+    border-radius: 6px;
+}
+
+.bai h3 {
+    color: #1668c1;
+    font-size: 15px;
+    margin: 0;
+}
+
+.bai p {
+    font-size: 15px;
+    margin: 5px 0;
+}
